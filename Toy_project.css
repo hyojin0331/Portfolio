@@ -1,0 +1,101 @@
+/* Theme Color: teal, rgb(255,255,254), #333*/
+
+* {
+    font-family: Helvetica, "맑은 고딕", "Malgun Gothic", "sans-serif";
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-size: 15px;
+    color: #333;
+}
+
+header {
+    color: rgb(0, 151, 151);
+    border-bottom: 1px solid teal;
+    background-color: rgba(255, 255, 255);
+    padding-left: 150px;
+    top: 0%;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+}
+
+header span {
+    display: flex;
+}
+
+header h1 {
+    font-size: 23px;
+    margin: 10px 24.5px 10px 10px;
+}
+
+ul {
+    list-style: none; 
+    padding-left: 0px;
+}
+
+header ul {
+    position: absolute;
+    left: 39%;
+    width: 332px;
+    padding: 13px;
+}
+
+.Portfolio_menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+}
+
+a {
+    color: #333;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: #666;
+}
+
+#Select_page {
+    color: teal;
+}
+
+section {
+    height: calc(100vh - 130px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.space {
+    margin-top: 70px;
+}
+
+.top_space {
+    margin-top: 90px;
+}
+
+section div {
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(0, 100, 100);
+    margin: 0px;
+}
+
+section div ul li {
+    margin-top: 50px;
+}
+
+footer {
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.8);
+    border-top: 1px solid rgba(51, 51, 51, 0.3);
+    padding-left: 150px;
+}

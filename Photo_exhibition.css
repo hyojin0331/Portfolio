@@ -1,0 +1,87 @@
+/* Theme Color: teal, rgb(255,255,254), #333*/
+
+* {
+    font-family: Helvetica, "맑은 고딕", "Malgun Gothic", "sans-serif";
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-size: 15px;
+}
+
+header {
+    color: rgb(0, 151, 151);
+    border-bottom: 1px solid teal;
+    background-color: rgba(255, 255, 255);
+    padding-left: 150px;
+    top: 0%;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 23px;
+    margin: 10px;
+}
+
+section {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.space {
+    margin-top: 70px;
+}
+
+ul {
+    list-style: none; padding-left: 0px;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photo_li {
+    border: 1px solid rgba(51, 51, 51, 0.5);
+    margin-top: 20px;
+}
+
+.long_img {
+    width: 175px;
+}
+
+.wide_img {
+    width: 310px;
+}
+
+.too_wide_img {
+    width: 412px;
+}
+
+.photo_li img {
+    width: 100%;
+    height: auto;
+}
+
+ul li span {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li p {
+    color: rgb(0, 100, 100);
+}
+
+footer {
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.8);
+    border-top: 1px solid rgba(51, 51, 51, 0.3);
+    padding-left: 150px;
+}

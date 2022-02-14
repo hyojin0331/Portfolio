@@ -1,0 +1,159 @@
+/* Theme Color: teal 청록색, #333 회색과 검정색의 중간쯤*/
+
+* {
+    font-family: Helvetica, "맑은 고딕", "Malgun Gothic", "sans-serif";
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-size: 15px;
+    color: #333;
+}
+
+header {
+    color: rgb(0, 151, 151);
+    border-bottom: 1px solid teal;
+    background-color: rgb(255, 255, 255);
+    padding-left: 150px;
+    top: 0%;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+header span {
+    display: flex;
+}
+
+header h1 {
+    font-size: 23px;
+    margin: 10px 52.5px 10px 10px;
+}
+
+ul {
+    list-style: none; 
+    padding-left: 0px;
+}
+
+header ul {
+    position: absolute;
+    left: 39%;
+    width: 332px;
+    padding: 13px;
+}
+
+.Portfolio_menu, .main_Portfolio_menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+}
+
+a {
+    color: #333;
+    text-decoration-line: none;
+}
+
+header a:hover {
+    color: #666;
+}
+
+#Select_page {
+    color: teal;
+}
+
+section {
+    text-align: center;
+}
+
+.space {
+    margin-top: 70px;
+}
+
+.top_space {
+    margin-top: 47px;
+}
+
+.side_space {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#Welcome {
+    position: relative;
+    z-index: 1;
+}
+
+#Welcome h2 {
+    font-size: 20px;
+    color: #FFF;
+    position: absolute;
+    top : 15%;
+    left: 11%;
+}
+
+#Welcome button {
+    font-size: 13px;
+    color: #666;
+    border: none;
+    background-color: #FFF;
+    padding: 10px 14px;
+    position: absolute;
+    top : 27%;
+    left: 11%;
+    cursor: pointer;
+}
+
+#Welcome button:hover {
+    transform: scale(1.01);
+    box-shadow: 10px 10px 50px -15px;
+}
+
+#Welcome img {
+    width: 100%;
+    height: 500px;
+}
+
+#introduce_the_site {
+    background-color: #F9F9F9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+nav {
+    text-align: center;
+}
+
+.main_Portfolio_menu button {
+    border: 1px solid #333;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width: 320px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.main_Portfolio_menu li:hover {
+    transform: scale(1.01);
+}
+
+.Portfolio_menu_li_title {
+    font-size: 17px;
+    color: teal;
+}
+
+.read_more {
+    color: rgba(51, 51, 51, 0.8);
+}
+
+footer {
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.8);
+    border-top: 1px solid rgba(51, 51, 51, 0.3);
+    padding-left: 150px;
+}
+
+/*background:linear-gradient(90deg, rgb(255, 255, 252) 0%, rgb(203, 237, 237) 45% , rgb(135, 207, 207) 70%, rgb(75, 192, 192) 90% , rgb(0, 171, 171) 100%);*/

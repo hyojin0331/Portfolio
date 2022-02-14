@@ -1,0 +1,183 @@
+/* Theme Color: teal, rgb(255,255,254), #333*/
+
+* {
+    font-family: Helvetica, "맑은 고딕", "Malgun Gothic", "sans-serif";
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-size: 15px;
+    color: #333;
+}
+
+header {
+    color: rgb(0, 151, 151);
+    border-bottom: 1px solid teal;
+    background-color: rgba(255, 255, 255);
+    padding-left: 150px;
+    top: 0%;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+}
+
+header span {
+    display: flex;
+}
+
+header h1 {
+    font-size: 23px;
+    margin: 10px 41px 10px 10px;
+}
+
+ul {
+    list-style: none; 
+    padding-left: 0px;
+}
+
+header ul {
+    position: absolute;
+    left: 39%;
+    width: 332px;
+    padding: 13px;
+}
+
+.Portfolio_menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+}
+
+a {
+    color: #333;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: #666;
+}
+
+#Select_page {
+    color: teal;
+}
+
+.space {
+    margin-top: 70px;
+}
+
+.top_space {
+    margin-top: 90px;
+}
+
+.side_space {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+section h3 {
+    font-size: 18px;
+    color: rgb(0, 100, 100);
+}
+
+section ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+section ul li {
+    cursor: pointer;
+}
+
+.hashtag {
+    font-size: 16px;
+    color: rgb(0, 100, 100);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 450px;
+}
+
+#keywords_des_accounting {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+  
+#keywords_des_Eco_friendly {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+  
+#keywords_des_photo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+  
+.show {
+    display: block;
+}
+  
+.hide {
+    display: none;
+}
+  
+.keywords_des_wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.content_box {
+    width: 500px;
+    height: 423px;
+    padding: 20px 30px;
+    background-color: white;
+    color: #333;
+    border-radius: 20px;
+}
+  
+.closeBtn {
+    text-align: right;
+    font-size: 15px;
+    cursor: pointer;
+}
+  
+.des_title {
+    font-size: 23px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #efefef;
+}
+  
+.des_description {
+    line-height: 25px;
+}
+
+footer {
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.8);
+    border-top: 1px solid rgba(51, 51, 51, 0.3);
+    padding-left: 150px;
+}

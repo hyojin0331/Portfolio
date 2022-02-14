@@ -93,31 +93,32 @@ section div ul {
     margin: 0px;
 }
 
-section div li {
-    margin-top: 12px;
-    cursor: pointer;
-    width: 19.5%;
+section div a {
+    color: teal;
+    text-decoration-line: none;
 }
 
-section div li:hover {
+section div button {
+    margin-top: 12px;
+    border: 0.5px solid #333;
+    background-color: #ffffff;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 275px;
+    height: 240px;
+}
+
+section div button:hover {
     transform: scale(1.01);
     background-color: #F9F9F9;
 }
 
-section div h4 {
+section button h4 {
     font-size: 17px;
     text-align: center;
     color: teal;
-    border: 1px solid #333;
-    border-radius: 7px;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 100px 0px;
-}
-
-section div a {
-    color: teal;
-    text-decoration-line: none;
 }
 
 footer {

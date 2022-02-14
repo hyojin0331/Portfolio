@@ -77,17 +77,17 @@ a:hover {
     margin-right: 50px;
 }
 
-section ul {
+#philosophy ul {
     display: flex;
     justify-content: space-between;
 }
 
-section li {
+#philosophy li {
     cursor: pointer;
-    width: 31%;
+    width: 23.7%;
 }
 
-section li:hover {
+#philosophy li:hover {
     transform: scale(1.01);
 }
 
@@ -96,9 +96,10 @@ section li:hover {
     text-align: center;
     color: teal;
     border: 1px solid #333;
-    border-radius: 10px;
-    margin: 0px;
-    padding: 50px 0px;
+    border-radius: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 70px 0px;
 }
 
 #keywords_des_income {
@@ -122,6 +123,16 @@ section li:hover {
 }
   
 #keywords_des_team {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#keywords_des_growth {
     position: fixed;
     top: 0;
     right: 0;
@@ -205,6 +216,23 @@ table tbody th {
 
 th, td {
     padding: 15px;
+}
+
+#capabilities {
+    text-align: center;
+}
+
+#capabilities li {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.capability_background_color {
+    background-color: #F9F9F9;
+}
+
+.capability_Light_background_color {
+    background-color: #f9f9f923;
 }
 
 footer {

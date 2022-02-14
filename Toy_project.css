@@ -51,12 +51,12 @@ header ul {
     margin: 1px;
 }
 
-a {
+.Portfolio_menu a {
     color: #333;
     text-decoration-line: none;
 }
 
-a:hover {
+.Portfolio_menu a:hover {
     color: #666;
 }
 
@@ -64,11 +64,10 @@ a:hover {
     color: teal;
 }
 
-section {
-    height: calc(100vh - 130px);
+section ul {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .space {
@@ -79,8 +78,9 @@ section {
     margin-top: 90px;
 }
 
-section div {
-    text-align: center;
+.side_space {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h3 {
@@ -89,8 +89,35 @@ h3 {
     margin: 0px;
 }
 
-section div ul li {
-    margin-top: 50px;
+section div ul {
+    margin: 0px;
+}
+
+section div li {
+    margin-top: 12px;
+    cursor: pointer;
+    width: 19.5%;
+}
+
+section div li:hover {
+    transform: scale(1.01);
+    background-color: #F9F9F9;
+}
+
+section div h4 {
+    font-size: 17px;
+    text-align: center;
+    color: teal;
+    border: 1px solid #333;
+    border-radius: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 100px 0px;
+}
+
+section div a {
+    color: teal;
+    text-decoration-line: none;
 }
 
 footer {

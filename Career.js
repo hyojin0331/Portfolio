@@ -36,3 +36,16 @@ team.addEventListener("click", function () {
 team_closeBtn.addEventListener("click", function () {
     team_des.className = "hide";
 });
+
+// growth 동적 기능 추가
+const growth = document.getElementById("growth");
+const growth_des = document.getElementById("keywords_des_growth");
+const growth_closeBtn = document.getElementById("growth_closeBtn");
+
+growth.addEventListener("click", function () {
+    growth_des.className = "show";
+});
+
+growth_closeBtn.addEventListener("click", function () {
+    growth_des.className = "hide";
+});

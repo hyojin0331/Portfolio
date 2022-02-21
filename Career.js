@@ -24,19 +24,6 @@ Eco_friendly_closeBtn.addEventListener("click", function () {
     Eco_friendly_des.className = "hide";
 });
 
-// team 동적 기능 추가
-const team = document.getElementById("team");
-const team_des = document.getElementById("keywords_des_team");
-const team_closeBtn = document.getElementById("team_closeBtn");
-
-team.addEventListener("click", function () {
-    team_des.className = "show";
-});
-
-team_closeBtn.addEventListener("click", function () {
-    team_des.className = "hide";
-});
-
 // growth 동적 기능 추가
 const growth = document.getElementById("growth");
 const growth_des = document.getElementById("keywords_des_growth");
@@ -48,4 +35,17 @@ growth.addEventListener("click", function () {
 
 growth_closeBtn.addEventListener("click", function () {
     growth_des.className = "hide";
+});
+
+// team 동적 기능 추가
+const team = document.getElementById("team");
+const team_des = document.getElementById("keywords_des_team");
+const team_closeBtn = document.getElementById("team_closeBtn");
+
+team.addEventListener("click", function () {
+    team_des.className = "show";
+});
+
+team_closeBtn.addEventListener("click", function () {
+    team_des.className = "hide";
 });

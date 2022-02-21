@@ -88,6 +88,7 @@ section ul {
 }
 
 section ul li {
+    margin-right: 20px;
     cursor: pointer;
 }
 
@@ -99,7 +100,11 @@ section ul li {
 }
 
 img {
-    width: 450px;
+    width: 100%;
+}
+
+.fast_Keyword {
+    margin-right: 0px;
 }
 
 #keywords_des_accounting {
@@ -173,6 +178,31 @@ img {
   
 .des_description {
     line-height: 25px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border-right: 5px solid teal;
+    border-bottom: 0px;
+    padding: 0px 72px;
+}
+
+td{
+    padding: 0px 72px;
+}
+
+.top_td {
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.bottom_td {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 footer {

@@ -109,10 +109,11 @@ section div button {
     cursor: pointer;
     width: 240px;
     height: 230px;
+    transition: all .35s ease-out;
 }
 
 section div button:hover {
-    transform: scale(1.1);
+    transform: scale(1.01);
     box-shadow: 10px 10px 23px -10px #777;
 }
 

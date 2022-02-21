@@ -77,29 +77,34 @@ a:hover {
     margin-right: 50px;
 }
 
+section h3 {
+    font-size: 18px;
+    color: rgb(0, 100, 100);
+}
+
 #philosophy ul {
     display: flex;
     justify-content: space-between;
 }
 
-#philosophy li {
+section ul li {
+    margin-right: 20px;
     cursor: pointer;
-    width: 23.7%;
-}
-
-#philosophy li:hover {
-    transform: scale(1.01);
 }
 
 .hashtag {
     font-size: 16px;
-    text-align: center;
-    color: teal;
-    border: 1px solid #333;
-    border-radius: 7px;
+    color: rgb(0, 100, 100);
     margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 70px 0px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.fast_Keyword {
+    margin-right: 0px;
 }
 
 #keywords_des_income {
@@ -121,8 +126,8 @@ a:hover {
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.7);
 }
-  
-#keywords_des_team {
+
+#keywords_des_growth {
     position: fixed;
     top: 0;
     right: 0;
@@ -132,7 +137,7 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-#keywords_des_growth {
+#keywords_des_team {
     position: fixed;
     top: 0;
     right: 0;
@@ -200,7 +205,7 @@ table {
     width: 447px;
 }
 
-table, th, td {
+table {
     border-bottom: 1px solid #333;
     border-collapse: collapse;
 }
@@ -215,6 +220,7 @@ table tbody th {
 }
 
 th, td {
+    border-bottom: 1px solid #333;
     padding: 15px;
 }
 

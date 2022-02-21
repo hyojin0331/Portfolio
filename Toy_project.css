@@ -64,12 +64,6 @@ header ul {
     color: teal;
 }
 
-section ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .space {
     margin-top: 70px;
 }
@@ -83,14 +77,24 @@ section ul {
     margin-right: 50px;
 }
 
-h3 {
+section h3 {
     font-size: 18px;
     color: rgb(0, 100, 100);
     margin: 0px;
 }
 
-section div ul {
-    margin: 0px;
+section ul {
+    background-color: #F9F9F9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+section ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 section div a {
@@ -99,24 +103,29 @@ section div a {
 }
 
 section div button {
-    margin-top: 12px;
-    border: 0.5px solid #333;
-    background-color: #ffffff;
+    border: 0.5px solid #F9F9F9;
+    background-color: #F9F9F9;
     border-radius: 7px;
     cursor: pointer;
-    width: 275px;
-    height: 240px;
+    width: 240px;
+    height: 230px;
 }
 
 section div button:hover {
-    transform: scale(1.01);
-    background-color: #F9F9F9;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 23px -10px #777;
+}
+
+section img {
+    width: 100px;
+    padding: 10px;
 }
 
 section button h4 {
     font-size: 17px;
     text-align: center;
     color: teal;
+    padding: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
 }

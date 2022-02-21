@@ -84,17 +84,9 @@ section h3 {
 }
 
 section ul {
-    background-color: #F9F9F9;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-section ul li {
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 section div a {
@@ -103,18 +95,18 @@ section div a {
 }
 
 section div button {
-    border: 0.5px solid #F9F9F9;
-    background-color: #F9F9F9;
+    border: 0.5px solid #ffffff;
+    background-color: #ffffff;
     border-radius: 7px;
     cursor: pointer;
-    width: 240px;
+    width: 250px;
     height: 230px;
     transition: all .35s ease-out;
 }
 
 section div button:hover {
     transform: scale(1.01);
-    box-shadow: 10px 10px 23px -10px #777;
+    box-shadow: 10px 10px 23px -12px #888;
 }
 
 section img {

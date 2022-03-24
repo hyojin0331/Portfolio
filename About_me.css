@@ -22,6 +22,7 @@ header {
 .fixed {
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 header span {
@@ -82,13 +83,13 @@ section h3 {
     color: rgb(0, 100, 100);
 }
 
-section ul {
+.keywords {
     display: flex;
     justify-content: space-between;
 }
 
-section ul li {
-    margin-right: 20px;
+#accounting, #Eco_friendly {
+    margin-right: 23px;
     cursor: pointer;
 }
 
@@ -101,10 +102,6 @@ section ul li {
 
 img {
     width: 100%;
-}
-
-.fast_Keyword {
-    margin-right: 0px;
 }
 
 #keywords_des_accounting {
@@ -175,34 +172,161 @@ img {
     padding-bottom: 20px;
     border-bottom: 1px solid #efefef;
 }
+
+.icon {
+    width: 20px;
+}
   
 .des_description {
     line-height: 25px;
 }
 
-table {
-    border-collapse: collapse;
+.space_bottom {
+    margin-bottom: 22px;
 }
 
-th {
-    border-right: 5px solid teal;
-    border-bottom: 0px;
-    padding: 0px 72px;
+.event {
+    padding: 15px 190px 70px 190px;
+    position: relative;
+    z-index: 1;
 }
 
-td{
-    padding: 0px 72px;
+.event::before {
+    content: '';
+    background-image: url(event-background.jpeg);
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
-.top_td {
-    font-size: 17px;
-    font-weight: bold;
-    padding-top: 30px;
+.event li {
+    position: relative;
 }
 
-.bottom_td {
-    padding-top: 30px;
-    padding-bottom: 30px;
+.event li.year-2011 {
+    padding-top: 20px;
+}
+
+.event li.year-2011, .event li.year-2021 {
+    margin-right: 50%;
+    padding-right: 140px;
+    text-align: right;
+}
+
+.event li.year-2011::before{
+    top: 62px;
+}
+
+.event li.year-2011::before, .event li.year-2021::before{
+    left: 100%;
+    margin-left: -14px;
+}
+
+.event li::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 17px;
+    height: 17px;
+    margin-top: -15px;
+    border: 6px solid teal;
+    border-radius: 50%;
+}
+
+.year {
+    font-size: 30px;
+    color: teal;
+    margin-bottom: 20px;
+}
+
+.point {
+    font-size: 22px;
+    color: teal;
+    margin: 20px 0px;
+}
+
+.event li.year-2011 p.line {
+    top: -10px;
+    right: 0;
+    height: 28px;
+}
+
+.event li p.line {
+    position: absolute;
+}
+
+.event li p.line::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: teal;
+    opacity: 0.3;
+}
+
+.event li.year-2020 {
+    margin-top: -173px;
+}
+
+.event li.year-2020, .event li.year-2022{
+    margin-right: 0;
+    margin-left: 50%;
+    padding-right: 0;
+    padding-left: 140px;
+    text-align: left;
+}
+
+.event li.year-2020::before {
+    top: 19px;
+}
+
+.event li.year-2020::before, .event li.year-2022::before {
+    right: 100%;
+    margin-right: -15px;
+}
+
+.event li.year-2020 p.line {
+    top: -220px;
+    left: 0;
+    height: 185px;
+}
+
+.event li.year-2021 {
+    margin-top: -60px;
+}
+
+.event li.year-2021::before{
+    top: 9px;
+}
+
+.event li.year-2021 p.line {
+    top: -268px;
+    right: 0;
+    height: 227px;
+}
+
+.event li.year-2022 {
+    margin-top: -100px;
+}
+
+.event li.year-2022::before {
+    top: 15px;
+}
+
+.event li.year-2022 p.line {
+    top: -163px;
+    left: 0;
+    height: 124px;
+}
+
+.event li.year-2022 p.last_line {
+    top: 36px;
+    left: 0;
+    height: 222px;
 }
 
 footer {

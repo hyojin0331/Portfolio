@@ -87,7 +87,7 @@ section h3 {
     justify-content: space-between;
 }
 
-section ul li {
+#income, #Eco_friendly, #growth {
     margin-right: 20px;
     cursor: pointer;
 }
@@ -101,10 +101,6 @@ section ul li {
 
 img {
     width: 100%;
-}
-
-.fast_Keyword {
-    margin-right: 0px;
 }
 
 #keywords_des_income {
@@ -185,6 +181,10 @@ img {
     padding-bottom: 20px;
     border-bottom: 1px solid #efefef;
 }
+
+.icon {
+    width: 20px;
+}
   
 .des_description {
     line-height: 25px;
@@ -231,6 +231,11 @@ th, td {
 #capabilities li {
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-right: 0px;
+}
+
+#capabilities img {
+    width: 40px;
 }
 
 .capability_background_color {

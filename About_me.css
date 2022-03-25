@@ -296,7 +296,7 @@ img {
 }
 
 .event li.year-2020 p.line {
-    top: -195px;
+    top: -189px;
     left: 0;
     height: 171px;
 }
@@ -306,11 +306,11 @@ img {
 }
 
 .event li.year-2021::before{
-    top: 9px;
+    top: 11px;
 }
 
 .event li.year-2021 p.line {
-    top: -249px;
+    top: -243px;
     right: 0;
     height: 217px;
 }
@@ -324,13 +324,13 @@ img {
 }
 
 .event li.year-2022 p.line {
-    top: -153px;
+    top: -145px;
     left: 0;
     height: 124px;
 }
 
 .event li.year-2022 p.last_line {
-    top: 36px;
+    top: 23px;
     left: 0;
     height: 260px;
 }

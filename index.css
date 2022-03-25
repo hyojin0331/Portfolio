@@ -1,7 +1,13 @@
 /* Theme Color: teal 청록색, #333 회색과 검정색의 중간쯤*/
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
 
 * {
-    font-family: Helvetica, "맑은 고딕", "Malgun Gothic", "sans-serif";
+    font-family: 'Pretendard-Regular';
     box-sizing: border-box;
 }
 

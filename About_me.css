@@ -246,13 +246,13 @@ img {
 .year {
     font-size: 30px;
     color: teal;
-    margin-bottom: 20px;
+    margin-bottom: 7px;
 }
 
 .point {
     font-size: 22px;
     color: teal;
-    margin: 20px 0px;
+    margin: 5px 0px 20px 0px;
 }
 
 .event li.year-2011 p.line {

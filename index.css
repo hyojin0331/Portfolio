@@ -115,7 +115,7 @@ section {
 
 #Welcome button:hover {
     transform: scale(1.01);
-    box-shadow: 10px 10px 50px -15px;
+    box-shadow: 10px 5px 15px rgba(153, 153, 153, 0.5);
 }
 
 #Welcome img {
@@ -143,6 +143,7 @@ nav h3 {
     border-radius: 7px;
     width: 100%;
     padding: 13px 40px;
+    transition: all .35s ease-out;
     cursor: pointer;
 }
 

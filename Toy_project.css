@@ -6,12 +6,19 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
-    font-family: 'Pretendard-Regular';
     box-sizing: border-box;
 }
 
 body {
+    font-family: 'Pretendard-Regular';
     margin: 0px;
     font-size: 15px;
     color: #333;
@@ -28,6 +35,7 @@ header {
 .fixed {
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 header span {
@@ -101,13 +109,14 @@ section div a {
 }
 
 section div button {
-    border: 0.5px solid #ffffff;
-    background-color: #ffffff;
+    border: 0.5px solid white;
+    background-color: white;
     border-radius: 7px;
     cursor: pointer;
     width: 305px;
-    height: 270px;
+    height: 422px;
     transition: all .35s ease-out;
+    z-index: 1;
 }
 
 section div button:hover {
@@ -122,6 +131,16 @@ section img {
 
 section button h4 {
     font-size: 17px;
+    text-align: center;
+    color: teal;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+section button p {
+    font-family: 'SDSamliphopangche_Outline';
+    font-size: 82px;
     text-align: center;
     color: teal;
     padding: 10px;

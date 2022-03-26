@@ -101,6 +101,12 @@ section ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+section li {
+    margin-bottom: 20px;
 }
 
 section div a {
@@ -109,19 +115,18 @@ section div a {
 }
 
 section div button {
-    border: 0.5px solid white;
+    border: 0.5px solid teal;
     background-color: white;
     border-radius: 7px;
-    cursor: pointer;
     width: 305px;
     height: 422px;
     transition: all .35s ease-out;
+    cursor: pointer;
     z-index: 1;
 }
 
 section div button:hover {
     transform: scale(1.01);
-    box-shadow: 10px 10px 23px -12px #888;
 }
 
 section img {

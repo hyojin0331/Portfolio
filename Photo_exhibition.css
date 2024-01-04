@@ -13,7 +13,7 @@
 
 body {
     margin: 0px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 header {
@@ -29,9 +29,45 @@ header {
     width: 100%;
 }
 
+header span {
+    display: flex;
+}
+
 header h1 {
-    font-size: 23px;
+    font-size: 32px;
     margin: 10px;
+}
+
+ul {
+    list-style: none; 
+    padding-left: 0px;
+}
+
+header ul {
+    font-size: 16px;
+    position: absolute;
+    left: 39%;
+    width: 586px;
+    padding: 13px;
+}
+
+.Portfolio_menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+}
+
+a {
+    color: #333;
+    text-decoration-line: none;
+}
+
+header a:hover {
+    color: #666;
+}
+
+#Select_page {
+    color: teal;
 }
 
 section {

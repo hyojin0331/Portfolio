@@ -13,7 +13,7 @@
 
 body {
     margin: 0px;
-    font-size: 15px;
+    font-size: 18px;
     color: #333;
 }
 
@@ -35,7 +35,7 @@ header span {
 }
 
 header h1 {
-    font-size: 23px;
+    font-size: 32px;
     margin: 10px 74px 10px 10px;
 }
 
@@ -45,9 +45,10 @@ ul {
 }
 
 header ul {
+    font-size: 16px;
     position: absolute;
     left: 39%;
-    width: 332px;
+    width: 586px;
     padding: 13px;
 }
 

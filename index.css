@@ -22,6 +22,7 @@ header {
     border-bottom: 1px solid teal;
     background-color: rgb(255, 255, 255);
     padding-left: 150px;
+    padding-right: 150px;
     top: 0%;
 }
 
@@ -45,10 +46,10 @@ ul {
     padding-left: 0px;
 }
 
-header ul {
+.Portfolio_menu {
     font-size: 16px;
     position: absolute;
-    left: 39%;
+    left: 650px;
     width: 586px;
     padding: 13px;
 }
@@ -56,7 +57,7 @@ header ul {
 .Portfolio_menu, .main_Portfolio_menu {
     display: flex;
     justify-content: space-between;
-    margin: 1px;
+    margin: 7px;
 }
 
 a {
@@ -148,8 +149,9 @@ nav h3 {
     cursor: pointer;
 }
 
-.main_Portfolio_menu li:hover {
-    transform: scale(1.01);
+.main_Portfolio_menu button:hover {
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 151, 151);
 }
 
 .Portfolio_menu_li_title {
